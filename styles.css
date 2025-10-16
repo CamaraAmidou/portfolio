@@ -1,0 +1,157 @@
+/*.........navigation section......*/
+header{
+    color: blue;
+    padding: 15px;
+    margin: 5px;
+    border: solid rgb(70, 226, 14);
+    background-color: rgb(35, 200, 229);
+}
+.container{
+display: flex;
+padding: 10px;
+margin: 15px;
+border: 10px;
+justify-content: center;
+align-items: center;
+background-color: aliceblue;
+}
+
+.nav_bar{
+display: flex;
+flex-direction: row;
+width: 100%;
+padding: 25px;
+margin: 10px;
+border: 10px;
+}
+
+.nav-bar-item{
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 15px;
+    border: 5px;
+    width: 100%;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 2px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20;
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+    font-size: 20px; 
+}
+a:active{
+    color: red;
+    background-color: gold;
+}
+
+a:visited{
+   color: green;
+}
+
+a:hover{
+    color: brown;
+}
+
+/*.......Main section.....*/
+
+
+
+.main_container{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    background-image: url(image/mu.jpeg);
+    background-position: center;
+}
+
+img{
+    width: 25rem;
+    height: 35rem;
+    padding: 15px;
+    margin: 10px;
+    border: solid blue;
+    border-radius: 1rem;
+}
+
+.main{
+    padding: 15px;
+    margin: 10px;
+    border: solid gray;
+    height: 35rem;
+    width: 25rem;
+}
+
+.main_item{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12;
+}
+
+
+
+/*.......... more navigation section......... */
+
+
+.More_nav_bar{
+    display: flex;
+    flex-direction: row;
+    background-image: url(image/arts.jpeg);
+    color: white;
+}
+
+.more-nav-item{
+    display: inline-flex;
+    padding: 20px;
+    padding-top: 10px;
+    margin: 15px;
+    border: 15px;
+    text-decoration: none;
+    list-style: none;
+    width: 50rem;
+    height: 20rem;
+}
+
+.item2{
+    color: black;
+    padding: 15px;
+    padding-bottom: 0%;
+    margin: 5px;
+    width: 60rem;
+    height: 2rem;
+}
+
+
+ /*............footer section...... */
+
+
+
+ .foot_element{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0rem;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    margin: 5px;
+    padding-left: 15px;
+    
+ }
+
+ .foot_element2{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    margin: 10px;
+    justify-content: center;
+    gap: 20px;
+ }
